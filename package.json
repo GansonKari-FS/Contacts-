@@ -1,0 +1,31 @@
+{
+  "name": "contacts-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GansonKari-FS/Contacts-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GansonKari-FS/Contacts-/issues"
+  },
+  "homepage": "https://github.com/GansonKari-FS/Contacts-#readme",
+  "dependencies": {
+    "@jworkman-fs/asl": "^1.2.43",
+    "axios": "^1.19.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "node-libcurl": "^5.1.2"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
