@@ -327,14 +327,6 @@ let contacts = [
     phone: "216-193-6202",
     birthday: "1977-12-21",
   },
-  {
-    id: 324,
-    fname: "Shae",
-    lname: "Tyler",
-    email: "jworkman2@fullsail.com",
-    phone: "307-555-5555",
-    birthday: "11-11-1980",
-  },
 ];
 
 module.exports = contacts;
