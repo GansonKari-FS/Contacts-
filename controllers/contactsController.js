@@ -48,11 +48,11 @@ const getContacts = (req, res) => {
       const bValue = String(b[sort]).toLowerCase();
 
       if (aValue < bValue) {
-        return direction === "asc" ? 1 : -1;
+        return direction === "asc" ? -1 : 1;
       }
 
       if (aValue > bValue) {
-        return direction === "asc" ? -1 : 1;
+        return direction === "asc" ? 1 : -1;
       }
 
       return 0;
