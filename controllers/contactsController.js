@@ -42,17 +42,21 @@ const getContacts = (req, res) => {
   const sort = req.query.sort;
   const direction = req.query.direction || "asc";
 
+  // Sorting
+  const sort = req.query.sort;
+  const direction = req.query.direction || "asc";
+
   if (sort) {
     results.sort((a, b) => {
       const aValue = String(a[sort]).toLowerCase();
       const bValue = String(b[sort]).toLowerCase();
 
       if (aValue < bValue) {
-        return direction === "asc" ? -1 : 1;
+        return direction === "asc" ? 1 : -1;
       }
 
       if (aValue > bValue) {
-        return direction === "asc" ? 1 : -1;
+        return direction === "asc" ? -1 : 1;
       }
 
       return 0;
